@@ -1,3 +1,12 @@
+// ------------------------------------
+// Everything is about  pass by value
+// ------------------------------------
+
+// Pointer server only 1 purpose: sharing
+// Pointer shares values across the program boundary.
+// There are several types of program boundary. The most common one  is between function calls.
+// We can also have a boundary between Goroutines when we will discuss it later.
+
 package main
 
 type user struct {
